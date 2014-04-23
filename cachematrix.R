@@ -2,12 +2,12 @@
 ## They are used to create a special "matrix" and cache its inverse.
 
 ## Function Example:
-## a <- makeCacheMatrix(matrix(1:4,2,2))             # create a matrix
-## a$get()                                                             # get the matrix
+## a <- makeCacheMatrix(matrix(1:4,2,2))                         # create a matrix
+## a$get()                                                       # get the matrix
 ## a$set(matrix(5:8,2,2))                                        # create a new matrix
-## a$get()                                                            # get the new matrix
-## cacheSolve(a)                                                  # compute the inverse
-## cacheSolve(a)                                                  # read the cached inverse
+## a$get()                                                       # get the new matrix
+## cacheSolve(a)                                                 # compute the inverse
+## cacheSolve(a)                                                 # read the cached inverse
 
 ## Create a special "matrix" object that can cache its inverse
 ## It can be used to:
